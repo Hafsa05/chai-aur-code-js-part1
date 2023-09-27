@@ -40,6 +40,33 @@ console.log(typeof anotherId);
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// Memory - 2types
+// 1. Stack - Primitive type data -> return copy 
+// 2. Heap - Non-Primitive or Reference type data -> return reference
 
+let myYouTubeName = "hiteshchoudhurydotcom"
 
+let anotherName = myYouTubeName
+anotherName = "chaiaurcode"
 
+console.log(myYouTubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+console.log(userOne);
+
+let userTwo = userOne
+console.log(userTwo);
+
+userTwo.email = "myemail@google.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+// mnasjkdbvb
+
+// hafsa
