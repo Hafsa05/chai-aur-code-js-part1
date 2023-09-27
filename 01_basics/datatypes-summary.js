@@ -67,6 +67,3 @@ userTwo.email = "myemail@google.com"
 console.log(userOne);
 console.log(userTwo);
 
-// mnasjkdbvb
-
-// hafsa
