@@ -16,15 +16,15 @@ const gameName = new String('hitesh-hc-com')
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
-const newString = gameName.substring(0, 4)
+const newString = gameName.substring(0, 4)// substring e -ve value use kora jai na 0 thike use kora jai
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
+const anotherString = gameName.slice(-8, 4);  // slice e -ve value use kora jai 
 console.log(anotherString);
 
 const newStringOne = "   hitesh    "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim());  // remove the white spaces from string
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 
