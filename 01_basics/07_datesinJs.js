@@ -1,4 +1,4 @@
-// Dates
+ // Dates
 
 let myDate = new Date()
 // console.log(myDate.toString());
@@ -6,11 +6,13 @@ let myDate = new Date()
 // console.log(myDate.toLocaleString());
 // console.log(typeof myDate);
 
-// let myCreatedDate = new Date(2023, 0, 23)
+// let myCreatedDate = new Date(2023, 0, 23)  //month start from 0 when u write it in single digit
+// console.log(myCreatedDate.toString());
+
 // let myCreatedDate = new Date(2023, 0, 23, 5, 3)
 // let myCreatedDate = new Date("2023-01-14")
-let myCreatedDate = new Date("01-14-2023")
-// console.log(myCreatedDate.toLocaleString());
+let myCreatedDate = new Date("01-14-2023")  
+console.log(myCreatedDate.toLocaleString());
 
 let myTimeStamp = Date.now()
 
@@ -20,13 +22,15 @@ let myTimeStamp = Date.now()
 
 let newDate = new Date()
 console.log(newDate);
-console.log(newDate.getMonth() + 1);
-console.log(newDate.getDay());
+console.log(newDate.getMonth() + 1);  //month count starts from 0 that's why +1
+console.log(newDate.getDay()); //week count starts from monday
 
 // `${newDate.getDay()} and the time `
 
-newDate.toLocaleString('default', {
+// Ctrl+space => shows all the suggestions
+// in toLocalString function we define a object
+newDate.toLocaleString('default', {  
     weekday: "long",
-    
+
 })
 
