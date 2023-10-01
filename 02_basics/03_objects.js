@@ -1,5 +1,5 @@
-// singleton
-// Object.create
+// singleton - literals er moto declear korle singleton hoi na, contructor thike hole singleton hoi
+// Object.create  // it is constructor method
 
 // object literals
 
@@ -20,7 +20,7 @@ const JsUser = {
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
-// console.log(JsUser[mySym])
+console.log(JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"
 // Object.freeze(JsUser)

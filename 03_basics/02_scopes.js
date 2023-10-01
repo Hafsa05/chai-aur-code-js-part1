@@ -50,9 +50,9 @@ function addone(num){
     return num + 1
 }
 
-
+//hoisting => execution context => moving all the declarations at the top of the scope before code execution. Basically, it gives us an advantage that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
 
 addTwo(5)
-const addTwo = function(num){
+const addTwo = function(num){   
     return num + 2
 }
