@@ -23,6 +23,8 @@ const temperature = 41
 
 // const balance = 1000
 
+// implecite scope - don't follow it
+// if (balance > 500) console.log("test");
 // if (balance > 500) console.log("test"),console.log("test2");
 
 // if (balance < 500) {

@@ -1,3 +1,5 @@
+// const userEmail = h@gmail.com
+// const userEmail = ""
 const userEmail = []
 
 if (userEmail) {
@@ -8,7 +10,7 @@ if (userEmail) {
 
 // falsy values
 
-// false, 0, -0, BigInt 0n, "", null, undefined, NaN
+// false, 0, -0, BigInt 0n(zero n), "", null, undefined, NaN
 
 //truthy values
 // "0", 'false', " ", [], {}, function(){}
